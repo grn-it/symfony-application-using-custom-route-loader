@@ -12,6 +12,6 @@ class ProductController extends AbstractController
      */
     public function item(string $uuid): JsonResponse
     {
-        return $this->json([]);
+        return $this->json(['ok']);
     }
 }
