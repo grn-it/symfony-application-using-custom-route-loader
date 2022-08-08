@@ -1,0 +1,3 @@
+from_db:
+    resource: .
+    type: db
