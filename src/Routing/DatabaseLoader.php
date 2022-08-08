@@ -7,7 +7,10 @@ use Symfony\Component\Config\Loader\Loader;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 
-class RoutesFromDbLoader extends Loader
+/**
+ * Loading routes from database
+ */
+class DatabaseLoader extends Loader
 {
     public function __construct(private readonly RouteRepository $routeRepository, string $env = null)
     {
